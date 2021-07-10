@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bff2cf1e.chunk.css",
+    "main.js": "./static/js/main.62134ad1.chunk.js",
+    "main.js.map": "./static/js/main.62134ad1.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d4f27fc7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d4f27fc7.js.map",
+    "static/js/2.6605a0c0.chunk.js": "./static/js/2.6605a0c0.chunk.js",
+    "static/js/2.6605a0c0.chunk.js.map": "./static/js/2.6605a0c0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.bff2cf1e.chunk.css.map": "./static/css/main.bff2cf1e.chunk.css.map",
+    "static/js/2.6605a0c0.chunk.js.LICENSE.txt": "./static/js/2.6605a0c0.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/flowers.a66c8c97.jpg",
+    "static/media/logo-awesome-profile-cards.a65df2b2.svg": "./static/media/logo-awesome-profile-cards.a65df2b2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4f27fc7.js",
+    "static/js/2.6605a0c0.chunk.js",
+    "static/css/main.bff2cf1e.chunk.css",
+    "static/js/main.62134ad1.chunk.js"
+  ]
+}

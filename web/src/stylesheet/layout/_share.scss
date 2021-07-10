@@ -1,0 +1,94 @@
+//SHARE - CREAR TARJETA
+.share {
+  border-top: $mainBorder;
+}
+.sharecard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 13px 18px;
+  border-radius: 12px;
+  color: $highlightcolor;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: $secondFont;
+  background-color: $thirdFontcolor;
+  box-shadow: $boxShadow;
+  cursor: pointer;
+}
+
+//SHARE - TWITTER
+.cardCreated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: $secondFont;
+  border-top: $mainBorder;
+  border-bottom: $mainBorder;
+  margin: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.cardCreated-title {
+  color: $secondFontColor;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.CardCreated-a {
+  font-family: $secondFont;
+  color: $thirdFontcolor;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.CardCreated_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #00a0f5;
+  width: 181px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: $boxShadow;
+  font-size: 14px;
+  color: $whiteColor;
+  margin-top: 10px;
+}
+.icon {
+  font-size: 18px;
+  color: $whiteColor;
+  margin-right: 9.5px;
+}
+
+
+.showLink {
+  .cardCreated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sharecard {
+    display: hidden;
+  }
+}
+
+.errorButtonPress {
+  background-color: #d5d5d5;
+}
+
+.errorcontainer{
+  height: 60px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}

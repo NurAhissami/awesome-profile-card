@@ -1,0 +1,40 @@
+.title_wrapper {
+  font-family: $secondFont;
+  color: $secondFontColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  &--text {
+    .icon {
+      font-size: 18px;
+      color: $thirdFontcolor;
+      display: inline;
+    }
+    .title {
+      text-transform: uppercase;
+      font-size: 18px;
+      display: inline;
+    }
+  }
+  &--arrow {
+    @include collapsableImage();
+    cursor: pointer;
+  }
+}
+
+.collapsible {
+  display: none;
+}
+
+.active {
+  .title_wrapper {
+    &--arrow {
+      transform: rotate(180deg);
+    }
+  }
+  .collapsible {
+    display: block;
+  }
+}

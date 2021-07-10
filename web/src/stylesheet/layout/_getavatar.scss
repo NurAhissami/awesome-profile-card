@@ -1,0 +1,37 @@
+.get-avatar {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .get-avatar__label {
+    background-color: $thirdFontcolor;
+    color: $whiteColor;
+    width: 140px;
+    height: 30px;
+    margin-right: 20px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: $boxShadow;
+    cursor: pointer;
+  }
+  
+  .get-avatar__upload-field {
+    display: none;
+    
+  }
+  
+  .get-avatar__preview {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    box-sizing: border-box;
+    border: solid 2px $detailColor;
+    width: 30px;
+    height: 30px;
+  }

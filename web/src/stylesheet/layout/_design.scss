@@ -1,0 +1,72 @@
+.design {
+  font-family: $secondFont;
+  font-size: 14px;
+  color: $secondFontColor;
+  border-bottom: $mainBorder;
+  &_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 22px;
+    margin-left: 19px;
+
+    &-title {
+      text-transform: uppercase;
+    }
+
+    &-label {
+      display: flex;
+      justify-content: flex-end;
+      height: 25px;
+      margin-bottom: 20px;
+
+      &--input {
+        height: 25px;
+        margin-bottom: 0;
+      }
+
+      &--div {
+        margin-left: 10px;
+        display: flex;
+
+        &1 {
+          background: #114e4e;
+          width: 30px;
+        }
+        &2 {
+          background: #438792;
+          width: 30px;
+        }
+        &3 {
+          background: #a2deaf;
+          width: 30px;
+        }
+        &4 {
+          background: #420101;
+          width: 30px;
+        }
+        &5 {
+          background: #bd1010;
+          width: 30px;
+        }
+        &6 {
+          background: #e95626;
+          width: 30px;
+        }
+        &7 {
+          background: #3e5b65;
+          width: 30px;
+        }
+        &8 {
+          background: #eab052;
+          width: 30px;
+        }
+        &9 {
+          background: #a0c0cf;
+          width: 30px;
+        }
+      }
+    }
+  }
+}
